@@ -1,0 +1,376 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    color: white;
+    background-color: black;
+  }
+  
+  section {
+    margin: auto;
+    width: 80%;
+    padding: 2%;
+  }
+  
+  h1 {
+    font-size: 50%;
+  }
+  
+  h1 {
+    font-size: 350%;
+  }
+
+  .orange-color {
+    color: rgb(50, 228, 27);
+  }
+  
+  .flexible-container {
+    display: flex;
+    margin-bottom: 5%;
+  }
+  
+  .half-width {
+    width: 50%;
+    
+    text-align: justify;
+    margin: 1%;
+    padding: 1%;
+  }
+  .half-widthp{
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  
+  .half-width p {
+    padding-right: 50%;
+    margin-left: 5%;
+  }
+  
+  .half-width h3{
+  margin-bottom: 10%;   
+    
+  }
+  
+  .link-button {
+    text-decoration: none;
+    color: #4CAF50;
+  border: 2px solid #4CAF50; /* Green */
+  bottom: 30px;
+  padding: 20px;
+  }
+
+  .link-button:hover{
+    background-color: #4CAF50; /* Green */
+  color: white;
+  }
+  
+  .top-banner {
+  
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    flex: auto;
+  }
+ 
+  .dream-big {
+  
+    background-repeat: no-repeat;
+    background-position: right;
+    box-sizing: border-box;
+  }
+  .half-widthgif{
+      margin-right: 250px;
+  }
+  
+  .experience-area {
+ 
+    background-repeat: no-repeat;
+    background-position: left;
+    box-sizing: border-box;
+  }
+  
+  .experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    text-align: justify;
+    color: white;
+    background-color: black;
+  }
+  
+  #full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+  }
+  
+  #web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
+  .experience-area h1 {
+    padding: 5%;
+  }
+
+  @media (max-width:1300px){
+    
+    
+    
+    
+      
+    .dream-big{
+      display: flex; flex-flow: column;
+    }
+
+    .top-banner{
+      display: flex; flex-flow: column;
+    }
+    
+  }
+
+  .visitsite{
+    margin-top: 10%;
+  }
+  
+    
+  button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+  .background {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .screen {
+    position: relative;
+    background: #3e3e3e;
+    border-radius: 15px;
+  }
+  
+  .screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+  }
+  
+  .screen-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4d4d4f;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .screen-header-left {
+    margin-right: auto;
+  }
+  
+  .screen-header-button {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    border-radius: 8px;
+    background: white;
+  }
+  
+  .screen-header-button.close {
+    background: rgb(235, 45, 203);
+  }
+  
+  .screen-header-button.maximize {
+    background: #36d83e;
+  }
+  
+  .screen-header-button.minimize {
+    background: #136bcf;
+  }
+  
+  .screen-header-right {
+    display: flex;
+  }
+  
+  .screen-header-ellipsis {
+    width: 3px;
+    height: 3px;
+    margin-left: 2px;
+    border-radius: 8px;
+    background: #999;
+  }
+  
+  .screen-body {
+    display: flex;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: rgb(50, 228, 27);
+    font-size: 26px;
+  }
+  
+  .app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 25px;
+    height: 4px;
+    background: rgb(228, 164, 27);
+  }
+  
+  .app-contact {
+    margin-top: auto;
+    font-size: 10px;
+    color: #888;
+  }
+  
+  .app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button {
+    background: none;
+    border: none;
+    color: rgb(50, 228, 27);
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .app-form-button:hover {
+    color: rgb(50, 228, 27);
+  }
+  
+  .credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #ffa4bd;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .credits-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .dribbble {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+  
+  @media screen and (max-width: 520px) {
+    .screen-body {
+      flex-direction: column;
+    }
+  
+    .screen-body-item.left {
+      margin-bottom: 30px;
+    }
+  
+    .app-title {
+      flex-direction: row;
+    }
+  
+    .app-title span {
+      margin-right: 12px;
+    }
+  
+    .app-title:after {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .screen-body {
+      padding: 40px;
+    }
+  
+    .screen-body-item {
+      padding: 0;
+    }
+  }
+  
+  footer{
+    background-color: black
+  }
+  .footertext{
+    margin: 1%;
+  }

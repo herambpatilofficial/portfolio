@@ -374,3 +374,13 @@ body {
   .footertext{
     margin: 1%;
   }
+
+  .footertext a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+  .footertext a:hover{
+    color: #36d83e;
+  }
